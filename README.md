@@ -57,3 +57,12 @@ O trabalho implementa os algoritmos solicitados sem utilizar funções prontas d
 | Quase Ordenado| Todos | Bubble/Cocktail |
 | Inverso | Selection Sort | Comb Sort |
 
+## Como executar
+
+# 1. 
+Cole e copie o conteúdo do arquivo OrdenacaoComparacao dentro de um arquivo com o mesmo nome
+
+# 2. 
+execute o programa
+
+
