@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Descrição do Projeto
+##  Descrição do Projeto
 
 Este projeto tem como objetivo **implementar e comparar o desempenho de 6 algoritmos de ordenação** em Java, analisando seu comportamento em diferentes cenários de dados. Os algoritmos foram testados com vetores específicos para avaliar eficiência em termos de **comparações, trocas e iterações**.
 
@@ -19,7 +19,7 @@ O trabalho implementa os algoritmos solicitados sem utilizar funções prontas d
 
 ---
 
-## 🎯 Algoritmos Implementados
+##  Algoritmos Implementados
 
 | Algoritmo | Tipo | Característica Principal |
 |-----------|------|-------------------------|
@@ -32,7 +32,7 @@ O trabalho implementa os algoritmos solicitados sem utilizar funções prontas d
 
 ---
 
-## 📊 Vetores de Teste
+##  Vetores de Teste
 
 ### Vetor 1 - Elementos Aleatórios
 
@@ -49,3 +49,11 @@ O trabalho implementa os algoritmos solicitados sem utilizar funções prontas d
 ### Vetor 3 - Elementos em Ordem Decrescente
 
 {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6}
+
+## Melhores Resultados
+| Método | Melhor em Trocas | Melhor em Iterações |
+|-----------|------|-------------------------|
+| Aleatório| Selection Sort | Comb Sort |
+| Quase Ordenado| Todos | Bubble/Cocktail |
+| Inverso | Selection Sort | Comb Sort |
+
