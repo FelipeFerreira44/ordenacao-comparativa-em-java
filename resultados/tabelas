@@ -1,0 +1,82 @@
+
+#  Tabelas dos Resultados
+
+##  VETOR 1 - Elementos Aleatórios
+
+| Algoritmo | Comparações | Trocas | Iterações |
+|-----------|-------------|--------|-----------|
+| **Bubble c/ Flag** | 190 | 95 | 19 |
+| **Selection Sort** | 190 | 19 | 19 |
+| **Cocktail Sort** | 184 | 95 | 10 |
+| **Comb Sort** | 144 | 95 | 8 |
+| **Gnome Sort** | 285 | 95 | 285 |
+| **Bucket Sort** | 95 | 190 | 115 |
+
+** Ranking por Trocas:**
+1. **Selection Sort** (19 trocas)
+2. Bubble c/ Flag (95 trocas)
+3. Cocktail Sort (95 trocas)
+4. Comb Sort (95 trocas)
+5. Gnome Sort (95 trocas)
+6. Bucket Sort (190 trocas)
+
+** Ranking por Iterações:**
+1. **Comb Sort** (8 iterações)
+2. Cocktail Sort (10 iterações)
+3. Bubble c/ Flag (19 iterações)
+4. Selection Sort (19 iterações)
+5. Bucket Sort (115 iterações)
+6. Gnome Sort (285 iterações)
+
+---
+
+##  VETOR 2 - Elementos Quase Ordenados
+
+| Algoritmo | Comparações | Trocas | Iterações |
+|-----------|-------------|--------|-----------|
+| **Bubble c/ Flag** | 19 | 0 | 1 |
+| **Selection Sort** | 190 | 0 | 19 |
+| **Cocktail Sort** | 19 | 0 | 1 |
+| **Comb Sort** | 133 | 0 | 7 |
+| **Gnome Sort** | 19 | 0 | 19 |
+| **Bucket Sort** | 0 | 0 | 25 |
+
+** Ranking por Trocas:**
+1. **Todos os algoritmos** (0 trocas)
+
+** Ranking por Iterações:**
+1. **Bubble c/ Flag** (1 iteração)
+2. **Cocktail Sort** (1 iteração)
+3. Selection Sort (19 iterações)
+4. Gnome Sort (19 iterações)
+5. Bucket Sort (25 iterações)
+6. Comb Sort (7 iterações)
+
+---
+
+##  VETOR 3 - Elementos em Ordem Decrescente
+
+| Algoritmo | Comparações | Trocas | Iterações |
+|-----------|-------------|--------|-----------|
+| **Bubble c/ Flag** | 190 | 190 | 19 |
+| **Selection Sort** | 190 | 19 | 19 |
+| **Cocktail Sort** | 184 | 190 | 10 |
+| **Comb Sort** | 144 | 190 | 8 |
+| **Gnome Sort** | 209 | 190 | 209 |
+| **Bucket Sort** | 190 | 380 | 115 |
+
+** Ranking por Trocas:**
+1. **Selection Sort** (19 trocas)
+2. Bubble c/ Flag (190 trocas)
+3. Cocktail Sort (190 trocas)
+4. Comb Sort (190 trocas)
+5. Gnome Sort (190 trocas)
+6. Bucket Sort (380 trocas)
+
+** Ranking por Iterações:**
+1. **Comb Sort** (8 iterações)
+2. Cocktail Sort (10 iterações)
+3. Bubble c/ Flag (19 iterações)
+4. Selection Sort (19 iterações)
+5. Bucket Sort (115 iterações)
+6. Gnome Sort (209 iterações)
