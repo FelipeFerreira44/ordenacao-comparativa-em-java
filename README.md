@@ -24,7 +24,7 @@ O trabalho implementa os algoritmos solicitados sem utilizar funções prontas d
 | Algoritmo | Tipo | Característica Principal |
 |-----------|------|-------------------------|
 | **Comb Sort** | Melhoria do Bubble Sort | Usa gap decrescente com fator 1.3 |
-| **Gnome Sort** | Simples | "Algoritmo do gnomo" - compara elementos adjacentes |
+| **Gnome Sort** | Simples |  compara elementos adjacentes |
 | **Bucket Sort** | Distribuição | Divide em baldes e ordena individualmente |
 | **Bubble Sort c/ Flag** | Comparação | Otimizado com flag de parada |
 | **Selection Sort** | Seleção | Menor número de trocas |
