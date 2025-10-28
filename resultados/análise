@@ -1,0 +1,72 @@
+#  Análise dos Algoritmos
+
+##  Análise por Tipo de Dados
+
+###  Dados Aleatórios
+- **Comb Sort** destacou-se com menor número de iterações
+- **Selection Sort** foi imbatível em número de trocas
+- **Gnome Sort** teve o pior desempenho em iterações
+
+###  Dados Quase Ordenados
+- **Bubble Sort com flag** e **Cocktail Sort** foram os mais eficientes
+- **Todos os algoritmos** realizaram 0 trocas
+- **Bucket Sort** teve overhead desnecessário
+
+###  Dados Inversamente Ordenados
+- **Selection Sort** mantém vantagem em trocas
+- **Comb Sort** mantém eficiência em iterações
+- **Bucket Sort** teve o maior número de trocas
+
+##  Análise por Algoritmo
+
+### Comb Sort
+- **Vantagens**: Excelente equilíbrio, bom para dados gerais
+- **Desvantagens**: Complexidade de implementação moderada
+- **Melhor caso**: Dados aleatórios e inversos
+
+### Selection Sort
+- **Vantagens**: Mínimo de trocas, estável
+- **Desvantagens**: Sempre O(n²) comparações
+- **Melhor caso**: Quando trocas são custosas
+
+### Bubble Sort com Flag
+- **Vantagens**: Excelente para dados quase ordenados, simples
+- **Desvantagens**: Péssimo para dados inversos
+- **Melhor caso**: Dados quase ordenados
+
+### Cocktail Sort
+- **Vantagens**: Melhoria do Bubble Sort, bidirecional
+- **Desvantagens**: Ainda O(n²) no pior caso
+- **Melhor caso**: Dados com elementos grandes no início/fim
+
+### Gnome Sort
+- **Vantagens**: Implementação muito simples
+- **Desvantagens**: Performance ruim em geral
+- **Melhor caso**: Pequenos conjuntos de dados
+
+### Bucket Sort
+- **Vantagens**: Potencial O(n) para dados uniformes
+- **Desvantagens**: Overhead de memória e implementação
+- **Melhor caso**: Dados uniformemente distribuídos
+
+##  Métricas de Avaliação
+
+### Comparações
+- **Menor**: Bucket Sort (vetor 2)
+- **Maior**: Gnome Sort (vetor 1)
+
+### Trocas
+- **Menor**: Selection Sort (sempre competitivo)
+- **Maior**: Bucket Sort (devido ao insertion sort nos baldes)
+
+### Iterações
+- **Menor**: Comb Sort (consistente)
+- **Maior**: Gnome Sort (sempre alto)
+
+##  Conclusões Técnicas
+
+1. **Não existe algoritmo universalmente melhor**
+2. **Comb Sort** é a melhor melhoria prática do Bubble Sort
+3. **Selection Sort** é ideal quando movimentação é custosa
+4. **Bubble Sort** ainda é relevante para dados quase ordenados
+5. **Bucket Sort** só compensa em cenários muito específicos
